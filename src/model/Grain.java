@@ -3,8 +3,8 @@ package model;
 import javafx.scene.paint.Color;
 
 public class Grain {
-    int id;
-    Color color;
+    private int id;
+    private Color color;
 
     public Grain() {
         this.id = 0;
@@ -17,6 +17,14 @@ public class Grain {
 
     public void setColor(Color color) {
         this.color = color;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public Color getColor() {
+        return color;
     }
 
     public void checkNeighbourhood(Grain[] matrix, int x, int y)

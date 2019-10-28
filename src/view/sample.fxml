@@ -7,19 +7,19 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="833.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
    <children>
-      <TextField layoutX="764.0" layoutY="34.0" prefHeight="26.0" prefWidth="79.0" fx:id="xSizeTextBox" />
-      <TextField fx:id="ySizeTextBox" layoutX="764.0" layoutY="74.0" prefHeight="26.0" prefWidth="79.0" />
-      <Button layoutX="857.0" layoutY="74.0" mnemonicParsing="false" onAction="#GenerateOnAction" text="Generate" />
-      <TextField fx:id="nmbOfGrainsTextBox" layoutX="764.0" layoutY="111.0" prefHeight="26.0" prefWidth="79.0" />
-      <Label layoutX="713.0" layoutY="39.0" text="xSize" />
-      <Label layoutX="713.0" layoutY="79.0" text="ySize" />
-      <Label layoutX="634.0" layoutY="116.0" text="number of Grains" />
-      <Button layoutX="781.0" layoutY="189.0" mnemonicParsing="false" onAction="#StartSimulationOnAction" text="Start simulation" />
+      <TextField layoutX="667.0" layoutY="25.0" prefHeight="26.0" prefWidth="79.0" fx:id="xSizeTextBox" />
+      <TextField fx:id="ySizeTextBox" layoutX="667.0" layoutY="65.0" prefHeight="26.0" prefWidth="79.0" />
+      <Button layoutX="760.0" layoutY="65.0" mnemonicParsing="false" onAction="#GenerateOnAction" text="Generate" />
+      <TextField fx:id="nmbOfGrainsTextBox" layoutX="667.0" layoutY="102.0" prefHeight="26.0" prefWidth="79.0" />
+      <Label layoutX="616.0" layoutY="30.0" text="xSize" />
+      <Label layoutX="616.0" layoutY="70.0" text="ySize" />
+      <Label layoutX="537.0" layoutY="107.0" text="number of Grains" />
+      <Button layoutX="684.0" layoutY="180.0" mnemonicParsing="false" onAction="#StartSimulationOnAction" text="Start simulation" />
       <StackPane fx:id="holderStackPane" layoutX="24.0" layoutY="25.0" prefHeight="150.0" prefWidth="200.0">
          <children>
-            <Canvas fx:id="GrainsCanvas" height="293.0" width="402.0" />
+            <Canvas fx:id="GrainsCanvas" height="500.0" width="500.0" />
          </children>
       </StackPane>
    </children>
